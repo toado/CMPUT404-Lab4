@@ -1,0 +1,5 @@
+from django.http import HttpResponse
+
+# Create your views / pages here.
+def index(request):
+    return HttpResponse("Hello, World! You're at the polls index.")
